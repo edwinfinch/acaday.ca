@@ -58,12 +58,15 @@ body {
 
 a {
   color: white;
-  text-decoration: underline !important;
-  cursor: pointer;
 }
 
 a:hover {
   color: rgb(219, 219, 219);
+}
+
+.underline {
+  text-decoration: underline !important;
+  cursor: pointer !important;
 }
 
 .footer {
