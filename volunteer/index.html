@@ -50,11 +50,7 @@
       </p>
       
       <a type="button" class="btn btn-primary" href="https://docs.google.com/spreadsheets/d/1j_-vuOdA8iZfJuG84qYT9Kjp-FsMtDzo2to0tAhxnl0/edit?usp=sharing">View available roles</a>
-      <button type="button" class="btn btn-primary">Contact the organizers</button>
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
-      </button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#emailModal">Contact the organizers</button>
     </div>
 
 
@@ -64,22 +60,19 @@
       <p>Kitchener, Ontario</p>
     </footer>
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Contact email modal -->
+    <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+            <h5 class="modal-title" id="emailModalLabel">Contact the organizers</h5>
           </div>
           <div class="modal-body">
-            Modal body goes here!
+            <img src="../img/obfuscated-email.png" class="img-fluid"/>
+            <p>(We&apos;ve obfuscated our email so that robots don&apos;t grab it.)</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
