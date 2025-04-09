@@ -58,6 +58,8 @@ body {
 
 a {
   color: white;
+  text-decoration: underline !important;
+  cursor: pointer;
 }
 
 a:hover {

@@ -50,7 +50,7 @@
       </p>
       
       <a type="button" class="btn btn-primary" href="https://docs.google.com/spreadsheets/d/1j_-vuOdA8iZfJuG84qYT9Kjp-FsMtDzo2to0tAhxnl0/edit?usp=sharing">View available roles</a>
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#emailModal">Contact the organizers</button>
+      <button type="button" class="btn btn-primary" onclick="javascript:contactOrganizers()">Contact the organizers</button>
     </div>
 
 
@@ -60,24 +60,11 @@
       <p>Kitchener, Ontario</p>
     </footer>
 
-    <!-- Contact email modal -->
-    <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="emailModalLabel">Contact the organizers</h5>
-          </div>
-          <div class="modal-body">
-            <img src="../img/obfuscated-email.png" class="img-fluid"/>
-            <p>(We&apos;ve obfuscated our email so that robots don&apos;t grab it.)</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script>
+      function contactOrganizers(){
+        document.location = `${'mailll'.substring(0, 4)}to:hell${'motha'.substring(1, 2)}@${'acaontario'}.org`; // obfuscate a bit for those darn scrapers
+      }
+    </script>
   </body>
 </html>

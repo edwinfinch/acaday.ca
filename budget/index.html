@@ -40,16 +40,16 @@
         <ol>
           <li>Pay for ACA Day in full</li>
           <li>Buy back ~$1,700 of inventory from our fellow member Terry, who paid for it out of pocket</li>
-          <li>Raise additional funds to keep in the Courage to Recover Intergroup bank account (which will also be published)</li>
+          <li>Raise additional funds to run more events in the future</li>
         </ol>
       </p>
 
-      <p>We have a plan in place to accomplish all three of these goals, which is lain out on our budget. You can see that entire budget, including expenses, income and balance sheet, here:</p>
+      <p>We have a plan in place to accomplish all three of these goals, which is lain out on our budget spreadsheet. You can see that entire budget, including expenses, income and balance sheet, here:</p>
       <p><strong><a href="https://docs.google.com/spreadsheets/d/1AMWG8nhZ7hEB4VxZFQxzx-d5gJGdx0Jh8jod7jrc0_U">ACA Day Budget &amp; Supplies</a></strong></p>
 
       <p>If you have any questions, feel free to reach out to us.</p>
       
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#emailModal">Contact the organizers</button>
+      <button type="button" class="btn btn-primary" onclick="javascript:contactOrganizers()">Contact the organizers</button>
     </div>
 
 
@@ -59,24 +59,11 @@
       <p>Kitchener, Ontario</p>
     </footer>
 
-    <!-- Contact email modal -->
-    <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="emailModalLabel">Contact the organizers</h5>
-          </div>
-          <div class="modal-body">
-            <img src="../img/obfuscated-email.png" class="img-fluid"/>
-            <p>(We&apos;ve obfuscated our email so that robots don&apos;t grab it.)</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script>
+      function contactOrganizers(){
+        document.location = `${'mailll'.substring(0, 4)}to:hell${'motha'.substring(1, 2)}@${'acaontario'}.org`; // obfuscate a bit for those darn scrapers
+      }
+    </script>
   </body>
 </html>
