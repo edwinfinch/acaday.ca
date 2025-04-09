@@ -1,0 +1,33 @@
+.ticket-buy-container {
+  margin-bottom: 3em;
+}
+
+.steps {
+  font-size: x-large;
+}
+
+.larger-text {
+  font-size: larger;
+}
+
+.largest-text {
+  font-size: x-large;
+}
+
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.qa p:first-child {
+  font-weight: bold;
+}
+
+.qa p:last-child {
+  font-style: italic;
+}
+
+.contact-button {
+  margin-top: 2em;
+}
